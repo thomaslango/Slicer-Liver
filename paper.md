@@ -41,7 +41,7 @@ bibliography: paper.bib
 # Summary
 
 This paper introduces SlicerLiver, a software extension to the [3D Slicer](https://slicer.org "3D Slicer")
-image computing platform [@Kikinis:2013]. The software address challenges in liver surgery planning by 
+image computing platform [@Kikinis:2013]. The software addresses challenges in liver surgery planning by 
 applying geometric modeling and artificial intelligence to generate liver tumor 
 resection plans for complex cases, developing parameterized patient-specific 
 vascular models, and creating computational methods for resection visualization 
@@ -57,12 +57,12 @@ increasing incidence rates [1]. Surgical resection is the most effective treatme
 for some of these cancers [@Simmonds:2006], and the evolution of computer-assisted surgical systems 
 over the past two decades has significantly improved tumor localization and surgeons 
 confidence during surgery [@Hansen:2014], [@Lamata:2010]. However, despite these advances, several challenges 
-remain in liver surgical practice.
+remain in liver surgery practice.
 
 While patient-specific 3D models are systematically generated for surgical planning 
 and guidance, surgery planning remains a manual process. This is particularly problematic 
 for patients with multiple metastases, where manual surgery planning becomes intricate. 
-The current techniques for planning virtual resections, namely, drawing-on-slices and 
+The current techniques for digital planning of liver resections, namely, drawing-on-slices and 
 deformable surfaces [@Preim:2013], [@Palomar:2017], have shown limitations. Therefore, there is a pressing 
 need for new algorithms capable of generating precise, rapid, and straightforward 
 resection plans, even in complex cases.
@@ -70,8 +70,8 @@ resection plans, even in complex cases.
 Furthermore, blood supply to various liver regions or vascu-
 lar territories is crucial for liver resection planning. The estab-
 lished anatomical division of the liver, such as the Couinaud
-division is under question [@Warmann:2016], [@Bismuth:2013]. This calls for innovative
-liver analytics methods that can enable the calculation of
+division is under discussion [@Warmann:2016], [@Bismuth:2013]. This calls for innovative
+liver analytic methods that can enable the calculation of
 various types of vascular territories.
 
 Another challenge is the absence of a broad consensus on
@@ -86,7 +86,7 @@ niques that can capture and communicate critical information
 from a resection plan in a compact form, interpretable by
 clinical experts, are needed.
 
-In response to these challenges, the SLiverLiver project aims to support
+In response to these challenges, the SlicerLiver project aims to support
 three research objectives:
 1) Apply geometric modeling and artificial intelligence to
 generate resection plans suitable for complex cases, such
@@ -106,7 +106,7 @@ SlicerLiver is separated into the following five sections:
 
 - Distance Map Computation
 - Resections
-- Resctogram
+- Resectogram
 - Liver Segments
 - Resection Volumetry
 
